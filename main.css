@@ -1,0 +1,33 @@
+:host {
+    all: initial;
+    display: block;
+    contain: content;
+    position: relative;
+    border: 1px solid #e2e2e2;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    max-width: 300px;
+}
+
+::slotted(*) {
+    font-weight: bold;
+}
+
+hr{
+    margin: 0px -20px 20px -20px;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.info{
+    padding: 20;
+    justify-content: space-between;
+}
+
+a{
+    border: 1px solid #e2e2e2;
+    padding: 0.5em 1em;
+    display: inline-flex;
+    border-radius: 2px;
+    text-decoration: none;
+}
